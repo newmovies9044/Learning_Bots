@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 25106778
+API_HASH = "05959768ade728b2ced1d88109ee5e72"
+BOT_TOKEN = "7287978699:AAGMziCw951rcGhAF37wG8ffRlDYHcWWkoM"
+MONGO_DB_URI = "mongodb+srv://newmovies9044:newmovies9044@cluster0.jxoqhzi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID = -4200603224
+OWNER_ID = 7021457341
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -29,8 +29,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/damanoffcialpredictionn")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Lottery_66666")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -52,7 +52,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "BQF_GVoAtvXMOo6lusxCNG8gMfD5_nwH8dNQMfMMBkLCHVJGUNFH72q1BethUPxmZCIS9FelIvHTmBlG4_UWSVeYTyxwHh3DDDbIVekUyTpFNiij-b4DXTW043hyRafnFvfIDBNtOERBh7Y1Y7yCww2ytQDOc-KwCZ_tPRcE0NyIQNJ9ChIgukC5nWMdYfqzloi-OepCW3Pe3CSzgCNBzfmnhXKY5M6EWaB3VkhVmAXf2ESJfFXNy-Ta6cQIZ6AofLL_JIS1E5m1dOuokjWAM0bYow5SfhC5m-uuFN9t89S1Y1nKpBR_VSJdQ0MW5PQ7EKZGcXQL7fD5W36jTsLyWklABOMmvgAAAAGigu-9AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -68,10 +68,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "START_IMG_URL", "https://graph.org/file/2d3df738fbfe43341dd47.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "PING_IMG_URL", "https://graph.org/file/2d3df738fbfe43341dd47.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/7aa263a19bd1b8148411b.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
